@@ -4,7 +4,7 @@ import Footer from './Components/Footer';
 import Contact from './Components/Home/Contact';
 import Home from './Components/Home/Home';
 import Projects from './Components/Home/Projects';
-import Skills from './Components/Home/Skills';
+import Skills from './Components/Home/Services';
 import Navbar from './Components/Navbar/Navbar';
 
 

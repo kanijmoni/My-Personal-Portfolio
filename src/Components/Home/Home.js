@@ -1,14 +1,17 @@
 import React from 'react';
 import About from './About';
+import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Projects from './Projects';
-import Skills from './Skills';
+import Services from './Services';
+
 
 const Home = () => {
     return (
         <div>
             <About></About>
-            <Skills></Skills>
+            <AboutMe></AboutMe>
+            <Services></Services>
             <Projects></Projects>
             <Contact></Contact>
         </div>

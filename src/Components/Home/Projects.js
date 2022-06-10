@@ -1,37 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Project from './Project';
 
 const Projects = () => {
+
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(data => setProjects(data));
+    }, [])
+
     return (
-        <div className='grid grid-cols-1 lg:grid-3 gap-5'>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="projects" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">Fresh Fruits Warehouse</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Details...</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">Bicycle Parts</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Details...</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">Independent Tour Guide</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Details...</button>
-                    </div>
-                </div>
+        <div className='px-12'>
+            <h2 className='font-bold text-3xl text-center mt-4'>My Projects</h2>
+            <p className='text-center mb-4'><i>"Projects,that I have done recently"</i></p>
+            <div className='grid grid-cols-2 gap-8'>
+                {
+                    projects.map(project => <Project
+                        key={project.id}
+                        project={project}
+                    ></Project>)
+                }
             </div>
         </div>
     );

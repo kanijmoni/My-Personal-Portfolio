@@ -1,0 +1,35 @@
+[
+    {
+        "id":"1",
+        "name":"Fruit Warehouse(A Warehouse Website)",
+        "img":"https://i.ibb.co/9rnyrpD/fresh-fruit-warehouse-9bd02-web-app-home.png",
+        "clientSite":"https://github.com/kanijmoni/fruits-warehouse-client-side",
+        "serverSite":"https://github.com/kanijmoni/fruits-warehouse-server-side",
+        "liveSite":"https://fresh-fruit-warehouse-9bd02.web.app/",
+        "bullatePoint":"● This is a fruit warehouse management website.● By creating a user account on this website, one can add products if he/she wants and deletes if he/she wants.● The user can update the product if desired and deliver the product by increasing/ decreasing the product quantity .",
+        "description":"",
+        "technologies":"★ Technologies: React, Bootstrap, React-Hooks ,React Query, Node.js,Express.js, MongoDB, Firebase"
+    },
+    {
+        "id":"2",
+        "name":"Bicycle Parts(A Parts Manufacturer Website)",
+        "img":"https://i.ibb.co/VWXd9q1/bicycle-parts-baf4f-firebaseapp-com.png",
+        "clientSite":"https://github.com/kanijmoni/bicycle-parts-client-side",
+        "serverSite":"https://github.com/kanijmoni/bicycle-parts-server-side",
+        "liveSite":"https://bicycle-parts-baf4f.firebaseapp.com/",
+        "bullatePoint":"● A buyer can buy bicycle manufacturer parts from this site.● A buyer should have an account to purchase products.● An admin can regulate all operations of this website like product add,update, manage order, make admin etc.",
+        "description":"",
+        "technologies":"★ Technologies: React ,Tailwind ,Daisy-UI, React-Hooks ,React Query,Node.js, Express.js,MongoDB, Firebase"
+    },
+    {
+        "id":"3",
+        "name":"Tourist Destination!(Independent Service Provider)",
+        "img":"https://i.ibb.co/MZYK7hD/independent-tour-guide-1b1b5-firebaseapp-com.png",
+        "clientSite":"https://github.com/kanijmoni/tour-guide",
+        "serverSite":"None",
+        "liveSite":"https://independent-tour-guide-1b1b5.firebaseapp.com/",
+        "bullatePoint":"● Some rights have been protected in this website so that the user cannot enter without login.● Authentication system has been implement here.",
+        "description":"",
+        "technologies":"★ Technologies:React,Bootstrap,React-Hooks ,React Query,Firebase"
+    }
+]
