@@ -3,7 +3,7 @@ import About from './About';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Projects from './Projects';
-import Services from './Services';
+// import Services from './Services';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <About></About>
             <AboutMe></AboutMe>
-            <Services></Services>
+            {/* <Services></Services> */}
             <Projects></Projects>
             <Contact></Contact>
         </div>

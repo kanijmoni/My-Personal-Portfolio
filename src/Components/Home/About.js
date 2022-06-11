@@ -7,7 +7,7 @@ const About = () => {
                 <img src="" alt='' />
                 <div className=''>
                     <h1 className="text-5xl font-bold">Hi,This is Kanij Fatema</h1>
-                    <p className="py-5">I'm a junior web developer</p>
+                    <p className="py-5">I work with.....</p>
                     <a className="btn btn-info" href='https://drive.google.com/file/d/1I2dNUz_ZbQxYuJzJ2YnJXHASvjPgi9vu/view?usp=sharing' target='_blank' rel="noreferrer" download>My Resume</a>
                 </div>
             </div>
