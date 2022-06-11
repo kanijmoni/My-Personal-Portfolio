@@ -9,10 +9,10 @@ const ProjectModal = ({ projectDetail }) => {
             <div class="modal modal-bottom sm:modal-middle">
                 <div class="modal-box">
                     <label for="project-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                    <div className='grid grid-col-3 gap-1 mb-4'>
-                        <img className='h-52' src={img} alt="" />
-                        <img className='h-52' src={img} alt="" />
-                        <img className='h-52' src={img} alt="" />
+                    <div className='grid grid-cols-3 gap-1 mb-2'>
+                        <img className='h-52 w-52' src={img} alt="" />
+                        <img className='h-52 w-52' src={img} alt="" />
+                        <img className='h-52 w-52' src={img} alt="" />
                     </div>
                     <h3 class="font-bold text-lg">{name}</h3>
                     <p className='font-bold text-center'>Description:</p>

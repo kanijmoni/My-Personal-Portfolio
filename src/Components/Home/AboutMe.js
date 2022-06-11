@@ -7,6 +7,7 @@ const AboutMe = () => {
 
             <div class="flex flex-col w-full lg:flex-row">
                 <div class="grid flex-grow h-72 w-1/2 card bg-base-300 rounded-box place-items-center"> <h2 className='text-xl text-center font-bold py-4'>My Skills</h2>
+                    <p>Coming Soon...</p>
                 </div>
                 <div class="divider lg:divider-horizontal"></div>
                 <div class="grid flex-grow h-72 w-1/2 card bg-base-300 rounded-box place-items-center">
