@@ -17,7 +17,7 @@ const Projects = () => {
         <div id='myProjects' className='px-12 py-20'>
             <h2 className='font-bold text-3xl text-center mt-4'>My Projects</h2>
             <p className='text-center mb-4'><i>"Projects,that I have done recently"</i></p>
-            <div className='grid grid-cols-2 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8'>
                 {
                     projects.map(project => <Project
                         key={project.id}

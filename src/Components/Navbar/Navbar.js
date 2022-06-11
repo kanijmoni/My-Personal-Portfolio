@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><a href='#contact'>Contact Me</a></li>
     </>
     return (
-        <div class="navbar bg-base-100 px-12">
+        <div class="navbar bg-base-100 px-12 bg-primary text-white fixed top-0">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabIndex="0" class="btn btn-ghost lg:hidden">
